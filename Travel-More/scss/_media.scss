@@ -1,0 +1,292 @@
+@media screen and (max-width: 1400px) {
+
+  .header {
+    padding: 300px 0 300px 0;
+
+    &__title {
+      margin-top: 200px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+
+  }
+
+  .section {
+    &__choose {
+      padding-left: 110px;
+    }
+  }
+
+  .card__second {
+    margin: 180px 0px 150px 365px;
+
+  }
+
+  .title {
+    &__secondary {
+      font-size: 27px;
+      margin-top: 97px;
+    }
+  }
+
+  .image {
+    padding: 0px 0px 0 0px;
+
+
+    &__secondary {
+      margin-top: 17px;
+      margin-left: 0px;
+    }
+  }
+
+  .icon {
+    &__style {
+      font-size: 47px;
+    }
+  }
+
+  .dots {
+    width: 316px;
+    height: 112px;
+    margin: 41px 146px;
+  }
+
+  .box {
+    width: 79%;
+    padding: 3px 0px 0px 25px;
+    margin-left: 125px;
+
+    &__subtitle {
+      margin-top: 5px;
+    }
+
+    &__text {
+      margin: 26px 24px 48px 0;
+    }
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+  .form {
+    &__input {
+      height: 54px;
+    }
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .box {
+    padding: 3px 0px 0px 38px;
+    margin: 58px 111px -90px 145px;
+
+    &__subtitle {
+      margin-top: 20px;
+    }
+  }
+
+  .card {
+    &__second {
+      margin: 180px 0px 150px 90px;
+    }
+
+    &__first {
+      margin: 179px 25px 147px 82px;
+
+    }
+  }
+
+  .block {
+    margin-left: -40px;
+  }
+
+  .image {
+    padding: 0px 52px 0 103px;
+    margin-left: -60px;
+
+
+    &__primary {
+      margin-top: -60px;
+    }
+
+    &__secondary {
+      margin-left: 160px;
+      margin-bottom: 35px;
+    }
+  }
+
+  .icon__style {
+    margin-top: 40px;
+  }
+
+  .section {
+    &__icons {
+      padding-bottom: 80px;
+    }
+  }
+
+  .form {
+    &__button {
+      height: 52px;
+    }
+  }
+
+  .header {
+    &__title {
+
+      font-size: 38px;
+
+    }
+
+    &__subtitle {
+      font-size: 20px;
+
+    }
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .header {
+    &__title {
+      margin-top: 10px;
+      font-size: 28px;
+
+    }
+
+    &__subtitle {
+      font-size: 15px;
+
+    }
+  }
+
+
+  .form {
+    &__input {
+      height: 54px;
+      padding: 0px 12px 0px 4px;
+      font-size: 10px;
+
+    }
+
+    &__button {
+      height: 52px;
+      padding: 6px 2px 5px 6px;
+      font-size: 10px;
+    }
+  }
+
+  .icon {
+    &__white {
+      visibility: hidden;
+    }
+  }
+
+  .block {
+    margin-left: -40px;
+  }
+
+
+  .image {
+    margin-top: -30px;
+    padding: 0px 0px 0 0px;
+
+    &__primary {
+      width: 250px;
+    }
+
+    &__secondary {
+      margin-top: 17px;
+      margin-left: 0px;
+      width: 250px;
+    }
+
+    &__review {
+      width: 350px;
+    }
+  }
+
+  .title {
+    &__choose {
+      font-size: 22px;
+      margin: 44px 0px 20px 20px;
+    }
+
+    &__review {
+      margin: 40px 0px 30px 0px;
+    }
+  }
+
+  .button {
+    &__choose {
+      margin-left: -7px;
+
+    }
+  }
+
+  .text {
+    font-size: 15px;
+
+    &__choose {
+      margin: 17px 16px 15px -50px;
+      text-align: center;
+    }
+
+  }
+
+  .card {
+    width: 300px;
+    height: 371px;
+    padding: 11px 8px 1px 17px;
+    margin-left: 23px;
+  }
+
+  .box {
+    margin: 58px 111px 0px 40px;
+    height: 475px;
+
+    &__text {
+      text-align: center;
+    }
+
+    &__subtitle {
+      margin-left: 45px;
+    }
+  }
+
+  .button {
+    font-size: 15px;
+
+    &__primary {
+      margin: 48px 0px 127px -13px;
+    }
+
+    &__secondary {
+      margin-left: 35px
+    }
+  }
+}

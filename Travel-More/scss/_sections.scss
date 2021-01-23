@@ -1,0 +1,47 @@
+
+.section {
+&__main {
+  background: url(../images/Image1.png) no-repeat center/cover;
+  width: 100%;
+  height: 95vh;
+  color: $font-color;
+}
+&__menu {
+  text-transform: uppercase;
+  background-color: $primary-color;
+}
+
+&__choose {
+  background: url(../images/Rectangle-7.png) no-repeat center/cover;
+  color: $text-color;
+}
+
+
+&__icons {
+  background-color: #333333;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+&__review {
+  background: url(../images/Rectangle-4143.png) no-repeat center/cover;
+  padding-bottom:100px;
+}
+
+&__footer {
+  background-color: #232323;
+  text-align: center;
+  height: 268px;
+}
+}
+.content {
+  &__first {
+    background: url(../images/Rectangle-414.png) no-repeat center/cover;
+  }
+
+
+  &__second {
+    background: url(../images/Rectangle-4142.png) no-repeat center/cover;
+  }
+}
